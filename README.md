@@ -2,18 +2,29 @@
 
 ![Image](https://github.com/doc/user-attachments/assets/pic/zipline-logo)
 
+
+
 ## 당신의 중개 업무에 필요한 단 하나의 라인 ZIPLINE
 
-[<img src="https://img.shields.io/badge/-readme.md-important?style=flat&logoColor=white" />]()  [<img src="https://img.shields.io/badge/release-v1.0.0-yellow?style=flat&logoColor=white" />]()
-<br/> [<img src="https://img.shields.io/badge/프로젝트 기간-2025.03.17~2025.05.16-green?style=flat&logo=&logoColor=white" />]()
+
+<div align="center">
+  <a href="https://zip-line.kr">
+    <img src="https://img.shields.io/badge/ZIPLINE-배포_사이트-4285F4?style=for-the-badge&logoColor=white" alt="배포 링크" />
+  </a>
+  <p><code>https://zip-line.kr</code></p>
+    <img src="https://img.shields.io/badge/-readme.md-important?style=flat&logoColor=white" />
+    <img src="https://img.shields.io/badge/release-v1.0.0-yellow?style=flat&logoColor=white" />
+    <br/>
+    <img src="https://img.shields.io/badge/프로젝트 기간-2025.03.17~2025.05.16-green?style=flat&logo=&logoColor=white" />
+</div>
+
+
 
 </div>
 
 ## 🎬 시연 영상
 ![Image](https://github.com/doc/user-attachments/assets/video/demo)
 
-## 🔗 배포 링크
-https://zip-line.kr
 
 ## 📝 서비스 소개
 > 집라인(Zipline)은 "집(Home)"과 "라인(Line)"의 합성어로, 공인중개사가 부동산과 고객을 최적의 경로로 연결하는 다리 역할을 할 수 있도록 돕습니다.
@@ -218,23 +229,24 @@ https://zip-line.kr
 
 ## 📝 추가 개선사항
 
-### 🏆 주요 성과 및 통계 섹션 추가
-> 사용자 수, 처리된 계약 건수, 관리된 매물 수 등 서비스의 성과를 시각적으로 표현할 수 있는 섹션을 추가하면 좋을 것 같습니다.
+### 🏆 주요 성과 및 통계
+> 
 
-### 🌟 핵심 차별점 강조
-> 경쟁 서비스와 비교하여 ZIPLINE만의 독특한 장점이나 특징을 강조하는 내용을 추가하면 좋을 것 같습니다.
+### 🌟 핵심 차별점 
+> 
 
 ### 📱 서비스 스크린샷 
-> 실제 서비스의 UI/UX를 보여주는 스크린샷을 추가하여 시각적 이해도를 높이는 것을 추천합니다.
+> 
 
 ### 🔄 현재 개발 진행 상황
-> 현재 개발 중인 기능이나 로드맵을 간략하게 소개하여 프로젝트의 방향성을 제시하면 좋을 것 같습니다.
+> 
 
 ### 📊 성능 지표
-> 시스템의 성능이나 응답 시간 등 기술적 지표를 간략하게 소개하면 기술적 완성도를 강조할 수 있습니다.
+> 
 
 ### 📋 빠른 시작 가이드
-> 로컬 환경에서 프로젝트를 실행하는 방법에 대한 간단한 가이드를 추가하면 개발자들의 기여 참여를 유도할 수 있습니다.<div align="center">
+> 로컬 환경에서 프로젝트를 실행하는 방법에 대한 간단한 가이드.
+<div align="center">
 
 
 -->
