@@ -91,17 +91,11 @@
 1. **GithubAction + DockerHub**
     - Jenkins를 활용한 CI/CD 파이프라인 구축
 
-2. **SonarQube**
-    - SonarQube를 활용한 소스코드 정적 분석
+2. **Vercel**
+    - Vercel을 사용한 프론트엔드 배포
 
-3. **AWS LoadBalancer**
-    - AWS LoadBalancer를 사용하여 2대의 운영서버에 트래픽 분산
-   
-4. **무중단 배포**
-   - 롤링 배포를 적용하여 서버 버전 교체 시에도 서비스 중단 없음
-
-5. **Redis Sentinel**
-    - 운영 서버에 Redis Sentinel을 구축하여 고가용성 및 운영 서버간 캐시 동기화
+3. **Redis, S3, RDS를 용도에 맞게 분리**
+    - Redis, S3, RDS를 분리 배포해서 확장성을 보장
 
 ---
 
