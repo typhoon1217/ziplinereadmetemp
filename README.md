@@ -1,125 +1,159 @@
-<div align="center">
-
 <!-- logo -->
 
-![Image](https://github.com/user-attachments/assets/zipline-logo)
+![Image](https://github.com/doc/user-attachments/assets/pic/zipline-logo)
 
-### Zipline - 당신의 프
+## 당신의 중개 업무에 필요한 단 하나의 라인 ZIPLINE
 
-[<img src="https://img.shields.io/badge/-readme.md-important?style=flat&logo=google-chrome&logoColor=white" />]()  [<img src="https://img.shields.io/badge/release-v1.0.0-yellow?style=flat&logo=google-chrome&logoColor=white" />]()
+[<img src="https://img.shields.io/badge/-readme.md-important?style=flat&logoColor=white" />]()  [<img src="https://img.shields.io/badge/release-v1.0.0-yellow?style=flat&logoColor=white" />]()
 <br/> [<img src="https://img.shields.io/badge/프로젝트 기간-2025.03.17~2025.05.16-green?style=flat&logo=&logoColor=white" />]()
 
 </div>
 
 ## 🎬 시연 영상
-![Image](https://github.com/user-attachments/assets/e5110644-3b90-4de9-9167-8e629cee1826)
+![Image](https://github.com/doc/user-attachments/assets/video/demo)
 
-## 배포 링크
-https://www.vivim.co.kr
+## 🔗 배포 링크
+https://zip-line.kr
 
-## 📝 프로젝트 소개
-**비빔**은 웹에이전시, 개발사, 고객사 간의 협업을 효율적으로 지원하기 위한 **프로젝트 관리 시스템(PMS)** 입니다.  
-다양한 이해관계자 간의 커뮤니케이션을 정리하고, 프로젝트의 진행 상황을 한 눈에 파악할 수 있도록 설계되었습니다
+## 📝 서비스 소개
+> 집라인(Zipline)은 "집(Home)"과 "라인(Line)"의 합성어로, 공인중개사가 부동산과 고객을 최적의 경로로 연결하는 다리 역할을 할 수 있도록 돕습니다.
 
 ## 🚀 주요 기능
-- 프로젝트 및 작업 단위(Task) 관리
-- 고객사 / 개발사 / 웹에이전시 별 역할 기반 권한 분리
-- 프로젝트 참여자 초대 및 권한 설정
-- 업무 진행률 시각화 및 대시보드 제공
-- 감사 로그(Audit Log)를 통한 주요 활동 이력 기록
-- 알림 기능을 통한 업무 관리
+### 📊 통계
 
+> 대시보드 화면에서 계약, 고객, 상담 현황을 요약해 제공하여, 중개사가 현재 업무 상황을 한눈에 파악할 수 있도록 돕습니다.
+
+---
+
+### 📅 일정
+
+> 주간/월간 단위로 계약 일정과 상담 일정을 조회하고 관리할 수 있으며, 일정을 추가, 수정, 삭제하는 기능을 통해 체계적인 스케줄 관리를 지원합니다.
+
+---
+
+### 📋 설문
+
+> 신규 고객 유입 시 필요한 정보를 사전에 수집할 수 있는 설문 기능을 지원합니다.
+> 
+> QR코드 및 URL 링크를 통해 간편하게 설문을 배포하고, 제출된 답변을 통해 고객의 니즈를 빠르게 파악할 수 있습니다.
+
+---
+
+### 📄 계약
+
+> 고객과 매물 간의 계약 과정을 체계적이고 효율적으로 관리합니다.
+
+---
+
+### 🗨️ 상담
+
+> 고객과의 상담 기록을 등록하고 조회할 수 있으며, 상담 일시나 고객 정보를 기준으로 빠르게 검색할 수 있습니다.
+
+---
+
+### 🏢 매물
+
+> 매물을 등록하고, 상세 조건(가격, 면적, 반려동물 여부 등)을 기준으로 조회 및 필터링할 수 있으며, 매물 히스토리도 관리할 수 있습니다.
+
+---
+
+### 👥 고객
+
+> 고객 정보를 등록하고, 다양한 필터링 및 라벨링 기능을 통해 고객을 체계적으로 분류 및 관리할 수 있으며, 고객별 계약/상담/매물 내역도 손쉽게 관리할 수 있습니다.
+
+---
+
+### 📩 문자
+
+> 단체 문자 발송, 문자 템플릿 관리, 생일 및 계약 기간 만료 전 알림 문자 발송 기능을 통해 고객 커뮤니케이션을 손쉽게 자동화하고 관리할 수 있도록 합니다.
+
+---
+
+### 🌐 외부 매물 데이터 조회
+
+> 외부 부동산 플랫폼(네이버, 직방)에서 매물 정보를 확인할 수 있도록 하여, 중개사의 정보 수집 업무를 간편하게 만듭니다.
 
 <br />
 
-## 📍 세부 기능
+## ⚙ 인프라 구성
 
-- ###  프로젝트 관리 
-   - 프로젝트 생성 / 수정 / 삭제
-   - 프로젝트별 진행 단계 생성 / 수정 / 삭제
-   - 각 단계별 업무 목록 등록 및 승인 요청
-  
-- ###  알림
-    - 프로젝트 생성 / 수정 / 삭제에 따른 알림 기능을 구현
+1. **GithubAction + DockerHub**
+    - Jenkins를 활용한 CI/CD 파이프라인 구축
 
-- ### 회사 및 직원 관리
-   - 회사 생성 / 수정 / 삭제
-   - 회사 소속 직원 생성 / 수정 / 삭제
-
-- ### 커뮤니케이션
-   - 프로젝트별 공지사항 및 질문 게시판 기능 제공
-
-- ### 감사 및 모니터링
-   - 관리자 전용 감사 로그(Audit Log)를 통한 모든 핵심 액션 추적
-
-### 📌 Infra
-
-1. **Jenkins**
-    - Jenkins 활용하여 CI/CD 를 구축
-
-2. **sonarQube**
-    - sonarQube를 활용하여 소스코드 정적 분석을 진행
+2. **SonarQube**
+    - SonarQube를 활용한 소스코드 정적 분석
 
 3. **AWS LoadBalancer**
-    - AWS LoadBalancer를 사용하여 2대의 운영서버에 요청을 분산
+    - AWS LoadBalancer를 사용하여 2대의 운영서버에 트래픽 분산
    
 4. **무중단 배포**
-   - 롤링 배포를 적용하여 서버 버전 교체 시에도 중단 되지 않음
+   - 롤링 배포를 적용하여 서버 버전 교체 시에도 서비스 중단 없음
 
 5. **Redis Sentinel**
-    - 운영 서버에 Redis Sentinel을 구축하여 고가용성 및 운영 서버간 캐시 동기화를 구현
+    - 운영 서버에 Redis Sentinel을 구축하여 고가용성 및 운영 서버간 캐시 동기화
+
 ---
 
-### 📌 기타 기능
+## 📌 기타 기능
 1. **사용자 인증 및 권한 관리**
-    - JWT 기반 로그인 및 권한 부여.
+    - JWT 기반 로그인 및 권한 부여
 
+<br />
 
 ## ⚙ 기술 스택
 
 ### Front-end
 <div>
-
-<img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+<img src="https://img.shields.io/badge/react-0769AD?style=for-the-badge&logo=react&logoColor=white">
+<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white">
 <img src="https://img.shields.io/badge/vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
-
-
-
-
-
-
-
+<img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white">
+<img src="https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=white">
+<img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
+<img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+<img src="https://img.shields.io/badge/mui-007FFF?style=for-the-badge&logo=mui&logoColor=white">
 </div>
 
 ### Back-end
 <div>
-<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=black">
-<img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=black">
-<img src="https://img.shields.io/badge/MySql-4479A1?style=for-the-badge&logo=mysql&logoColor=black">
-<img src="https://img.shields.io/badge/redis-FF4438?style=for-the-badge&logo=redis&logoColor=black">
-<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=Grafana&logoColor=black">
-<img src="https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=black">
-
-
-
+<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
+<img src="https://img.shields.io/badge/Spring Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white">
+<img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens">
+<img src="https://img.shields.io/badge/redis-DC382D?style=for-the-badge&logo=redis&logoColor=white">
+<img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white">
+<img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white">
+<img src="https://img.shields.io/badge/querydsl-0769AD?style=for-the-badge&logoColor=white">
+<img src="https://img.shields.io/badge/jpa-59666C?style=for-the-badge&logo=hibernate&logoColor=white">
+<img src="https://img.shields.io/badge/mariadb-003545?style=for-the-badge&logo=mariadb&logoColor=white">
+<img src="https://img.shields.io/badge/liquibase-2962FF?style=for-the-badge&logo=liquibase&logoColor=white">
+<img src="https://img.shields.io/badge/rest_api-009688?style=for-the-badge&logo=postman&logoColor=white">
+<img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black">
+<img src="https://img.shields.io/badge/yaml-%23ffffff.svg?style=for-the-badge&logo=yaml&logoColor=151515">
 </div>
 
 ### Infra
 <div>
+<img src="https://img.shields.io/badge/forgejo-%23FB923C.svg?style=for-the-badge&logo=forgejo&logoColor=white">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=Github&logoColor=white">
-<img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=black">
-<img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=Amazonec2&logoColor=black">
-<img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazons3&logoColor=black">
-<img src="https://img.shields.io/badge/Amazon ECR-527FFF?style=for-the-badge&logo=Amazonrds&logoColor=white">
-<img src="https://img.shields.io/badge/Amazon CLOUDEWATCH-FF4F8B?style=for-the-badge&logo=Amazoncloudwatch&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
+<img src="https://img.shields.io/badge/Docker_Hub-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+<img src="https://img.shields.io/badge/zsh-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white">
+<img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=black">
+<img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=amazons3&logoColor=black">
+<img src="https://img.shields.io/badge/AWS_ElastiCache-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white">
+<img src="https://img.shields.io/badge/Amazon_Linux-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-<img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=SonarQube&logoColor=white">
-
+<img src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white">
+</div>
 
 ### Tools
 <div>
-<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=black">
-<img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black">
+<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+<img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white">
+<img src="https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white">
+<img src="https://img.shields.io/badge/Cursor-1d9bf0?style=for-the-badge&logo=cursor&logoColor=white">
+<img src="https://img.shields.io/badge/github_copilot-8957E5?style=for-the-badge&logo=github-copilot&logoColor=white">
 
 </div>
 
@@ -127,29 +161,80 @@ https://www.vivim.co.kr
 
 ## 🛠️ 프로젝트 아키텍처
 
-![Image](https://github.com/user-attachments/assets/3c729e9c-a929-42a9-a1b4-f187f767628e)
+![Image](https://github.com/doc/user-attachments/assets/pic/architecture)
 
 ## 🛠️ CI / CD 파이프라인
 
-![Image](https://github.com/user-attachments/assets/00ff56f3-56b8-4d44-b8ac-7d85d441d41f)
+![Image](https://github.com/doc/user-attachments/assets/00ff56f)
 
 <br />
 
 ## 🗂️ 기술 문서
+[![📄 API 명세서](https://github.com/doc/user-attachments/assets/video/demo)](-)
 
-👉 **API 명세서** : [바로가기](https://dev.vivim.co.kr/swagger-ui/index.html)
+[![📋 기능 명세서](https://github.com/doc/user-attachments/assets/video/demo)](-)
 
-👉 **기능 명세서** : [바로가기](-)
+[![📊 ERD](https://github.com/doc/user-attachments/assets/video/demo)](-)
 
+[![🔧 트러블 슈팅](https://github.com/doc/user-attachments/assets/video/demo)](-)
 
-👉 **ERD** :
+[![📖 기술 메뉴얼](https://github.com/doc/user-attachments/assets/video/demo)](-)
 
-![Image](https://github.com/user-attachments/assets/31a9abfc-1937-4f84-896e-f2e511319035)
+[![📈 시퀀스 다이어그램](https://github.com/doc/user-attachments/assets/video/demo)](-)
+
+<br />
 
 ## 💁‍♂️ 프로젝트 팀원
 
 | 이름  | 역할           | 담당 업무                                                                            |
 |-----|--------------|----------------------------------------------------------------------------------|
-| 박준서 | 백엔드 개발자 (팀장) | 백엔드 CI/CD 구축, 무중단 배포 구축 <br/> User, Company, Project API 개발 <br/> SpringSecurity |
-| 김찬호 | 백엔드 개발자      | Project Post, Comment, File, Link API 개발<br/>                                    |
-| 송어진 | 백엔드 개발자      | Project Approval, Notification API 개발 <br/> SpringSecurity                       |
+| 채지원 | 백엔드 개발자 (팀장) | 단체 문자 발송기능, Vercel 배포, 프론트 엔드  |
+| 신중우 | 백엔드 개발자      | AWS(EC2,RDS,Redis), CICD, 공개매물 크롤링, 조회, 대쉬보드 통계, 구조 리펙토링|
+| 신윤상 | 백엔드 개발자      | 고객 관리, 설문 관리, 상담 관리, ExcelImport|
+| 조수연 | 백엔드 개발자      | 로그인/회원가입, 매물 관리, 계약 관리 |
+
+<br />
+
+## 🐛 이슈 보고 & 개선사항 제안
+
+<div align="center">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScIPclLeQxwTgsHOG_xAJ6ofQHC9oqUHbCUsKPzYhVFMwv5iw/viewform?usp=dialog">
+    <img src="https://img.shields.io/badge/이슈_및_개선사항_제안하기-FF5722?style=for-the-badge&logo=googleforms&logoColor=white" alt="이슈 및 개선사항 제안하기" />
+  </a>
+</div>
+<p align="center"><i>이슈 및 개선사항은 위 설문폼을 통해 남겨주시면 감사하겠습니다</i> 😊</p>
+
+<br />
+
+## 📁 관련 레포지토리
+
+<div align="center">
+  <a href="https://github.com/Kernel360/Kernel360-KDEV4-ZIPLINE-FE">
+    <img src="https://img.shields.io/badge/프론트엔드_레포지토리-181717?style=for-the-badge&logo=github&logoColor=white" alt="프론트엔드 레포지토리" />
+  </a>
+</div>
+
+<!--
+
+## 📝 추가 개선사항
+
+### 🏆 주요 성과 및 통계 섹션 추가
+> 사용자 수, 처리된 계약 건수, 관리된 매물 수 등 서비스의 성과를 시각적으로 표현할 수 있는 섹션을 추가하면 좋을 것 같습니다.
+
+### 🌟 핵심 차별점 강조
+> 경쟁 서비스와 비교하여 ZIPLINE만의 독특한 장점이나 특징을 강조하는 내용을 추가하면 좋을 것 같습니다.
+
+### 📱 서비스 스크린샷 
+> 실제 서비스의 UI/UX를 보여주는 스크린샷을 추가하여 시각적 이해도를 높이는 것을 추천합니다.
+
+### 🔄 현재 개발 진행 상황
+> 현재 개발 중인 기능이나 로드맵을 간략하게 소개하여 프로젝트의 방향성을 제시하면 좋을 것 같습니다.
+
+### 📊 성능 지표
+> 시스템의 성능이나 응답 시간 등 기술적 지표를 간략하게 소개하면 기술적 완성도를 강조할 수 있습니다.
+
+### 📋 빠른 시작 가이드
+> 로컬 환경에서 프로젝트를 실행하는 방법에 대한 간단한 가이드를 추가하면 개발자들의 기여 참여를 유도할 수 있습니다.<div align="center">
+
+
+-->
